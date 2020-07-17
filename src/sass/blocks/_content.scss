@@ -1,101 +1,16 @@
 // content start
-.wrapper{
-    flex: 1 0 auto;
-    margin-top: 30px;
+
+.content{
+    display: flex;
+    flex-wrap: nowrap;
 }
-.left {
-    min-height: 640px;
-    width: 20%;
+article{
+    width: 70%;
+    height: 480px;
+    background-color: black;
 }
 .sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    &__top{
-        background: linear-gradient(45deg, rgba(137, 76, 119, 0.6), rgba(76, 103, 137, 0.6));
-        width: 100%;
-        min-height: 45%;
-    }
-    &__item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 8px 10px;
-        font-size: 14px;
-        line-height: 22px;
-        color: blanchedalmond;
-        list-style-type: none;
-        margin: 0;
-        li{
-            padding: 10px 0; 
-            width: 100%;
-            text-align: center;
-            &:hover{
-                font-size: 16px;
-                cursor: pointer;
-                background-color: rgba(196, 184, 184, .6);
-                border-radius: 5px;
-            }
-        }
-    }
-    &__botom{
-        width: 100%;
-        height: 15%;
-    }
-}
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 640px;
-    width: 80%;
-}
-.content_top{
-    font-size: 14px;
-    line-height: 22px;
-    color: blanchedalmond;
-    background: linear-gradient(45deg, rgba(137, 76, 119, 0.6), rgba(76, 103, 137, 0.6));
-    padding-left: 10px;
-    margin-bottom: 30px;
-    h4{
-        margin: 0;
-    }
-    .list{
-    font-size: 14px;
-    line-height: 22px;
-    margin: 30px 0 30px 30px;
-    }
-}
-.content_center{
-    display: flex;
-    flex-wrap: wrap;
-}    
-.image{
-    width: 16.36%;
-    display: flex;
-    img{
-        width: 100%;
-        height: 170px;
-        margin-bottom: 30px;
-        &:hover{
-            transform: scale(1.5);
-            cursor: pointer;
-            margin-bottom: 0px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        }
-    }
-    
-}
-
-.content_botom{
-    color: blanchedalmond;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.botom-descr {
-    justify-content: space-between;
-    width: 50%;
+    width: 30%;
+    height: 480px;
+    background-color: white;
 }

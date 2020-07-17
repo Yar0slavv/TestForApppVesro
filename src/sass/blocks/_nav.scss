@@ -1,0 +1,33 @@
+.wrapper{
+    flex: 1 0 auto;
+}
+.nav{
+    display: flex;
+    margin: 0 auto;
+
+}
+.wrap__title{
+    line-height: 10px;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 14px;
+}
+.block{
+    margin: 10px 0 0 15px;
+    width: 65px;
+    height: 65px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 50%;
+}
